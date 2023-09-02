@@ -17,8 +17,30 @@ namespace Punto_2
         {
             // 2 declaracion de varibles
 
-            string Nombre, cargo;
-            double nomina, horas, valorHora, embargo, nominaTotal;
+            string nombre, cargo;
+            double salario, nomina, horas, valorHora, embargo, nominaTotal;
+
+            //  3 pedir datos por pantalla
+
+            Console.WriteLine("Digite el nombre del empleado: ");
+            nombre = Console.ReadLine();
+            
+            Console.WriteLine("Digite el cargo del empleado: ");
+            cargo = Console.ReadLine();
+
+            Console.WriteLine("Digite el salario del empleado: ");
+            salario = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Digite las horas trabajadas del empleado: ");
+            horas = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Digite el valor de la hora del empleado: ");
+            valorHora = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Digite el valor del embargo del empleado: ");
+            embargo = Convert.ToDouble(Console.ReadLine());
+
+            
         }
     }
 }
