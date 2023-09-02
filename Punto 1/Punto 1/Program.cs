@@ -18,7 +18,7 @@ class Punto_1
         Console.WriteLine($"Valor de a: {a}");
         Console.WriteLine($"Valor de b: {b}");
         Console.WriteLine($"Valor de c: {c}");
-        Console.WriteLine(x);
+        Console.WriteLine($"El resultado final es de {x}");
 
 
     }
