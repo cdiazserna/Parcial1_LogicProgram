@@ -29,13 +29,15 @@ namespace Punto1
 
             x = (x * x) * c;
 
-            x = X
+            x = x / (2 * c + a) * (2 * c + a);
+
+            x = Math.Sqrt(x);
 
 
 
 
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("La respuesta es: " + x);
         }
     }
 }
