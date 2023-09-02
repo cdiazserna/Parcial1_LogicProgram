@@ -12,18 +12,22 @@ namespace Punto1
 
             Random random = new Random();
 
-            a = random.Next(3, 12);
+             a = random.Next(3, 12);
 
-            b = random.Next(2, 10);
+             b = random.Next(2, 10);
 
-            c = random.Next(4, 13);
+             c = random.Next(4, 13);
 
-            x = (double)Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2) - Math.Pow(c, 2));
+            x = (double)Math.Sqrt((Math.Pow(2, Math.Pow(3, (6 * a) + (7 * b))) * c) / Math.Pow(2, (4 * c) + a));
+
+            Console.WriteLine("Los números para hacer el programa son: " + a + "" + b + "y" + c);
+            Console.WriteLine("El valor de la variable x, es: "+x);
+
 
             
 
 
-   
+    
         
      
 
