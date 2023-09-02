@@ -48,6 +48,9 @@ namespace Punto_2
 
             // 5 mostrar resusltados en pantalla
 
+            Console.WriteLine($"Nombre del empleado es: {nombre} y su cargo es: {cargo}");
+            Console.WriteLine($"Su salarios sin deducciones es: {salario}, su salario con deducciones es: {nominaTotal}");
+
         }
     }
 }
