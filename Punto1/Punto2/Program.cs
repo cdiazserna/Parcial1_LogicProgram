@@ -18,7 +18,8 @@ public class Punto2
         Console.Write("ingrese valor horas trabajadas:");
         string valor = Console.ReadLine();
 
-        double 
+        double salarioBruto = horasTrabajadas * valorHora;
+
 
 
 
