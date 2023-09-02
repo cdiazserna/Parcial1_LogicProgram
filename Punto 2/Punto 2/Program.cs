@@ -39,5 +39,7 @@
         Console.WriteLine($"Descuento salud: {descSalud}");
         Console.WriteLine($"Descuento pension: {descPension}");
         Console.WriteLine($"Descuento {embargoBancario}");
+
+
     }
 }
