@@ -6,6 +6,7 @@ namespace PARCIAL1
     {
         static void Main(string[] args)
         {
+            //Pedir en pantalla
             Console.WriteLine("Ingrese nombre del empleado: ");
             string nombre = Console.ReadLine();
 
@@ -18,9 +19,20 @@ namespace PARCIAL1
             Console.WriteLine("Valor de la hora: ");
             double valorHora = double.Parse(Console.ReadLine());
 
-            double salarioNeto 
+            //Calcular deducciones
+            double salarioNeto = horasTrabajadas * valorHora;
 
-         
+            double salud = salarioNeto * 0.04;
+
+            double pension = salarioNeto * 0.04;
+
+            double embargo = salarioNeto / 0.04;
+
+            double salarioTotal = salarioNeto - salud - pension - embargo;
+
+            //
+
+
         }
     }
 }
