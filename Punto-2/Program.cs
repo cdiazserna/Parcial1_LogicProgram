@@ -18,7 +18,7 @@ namespace Punto_2
             // 2 declaracion de varibles
 
             string nombre, cargo;
-            double salario, nomina, horas, valorHora, embargo, nominaTotal;
+            double salario, salud, pension,  horas, valorHora, embargo, nominaTotal;
 
             //  3 pedir datos por pantalla
 
@@ -27,10 +27,7 @@ namespace Punto_2
             
             Console.WriteLine("Digite el cargo del empleado: ");
             cargo = Console.ReadLine();
-
-            Console.WriteLine("Digite el salario del empleado: ");
-            salario = Convert.ToDouble(Console.ReadLine());
-
+                        
             Console.WriteLine("Digite las horas trabajadas del empleado: ");
             horas = Convert.ToDouble(Console.ReadLine());
 
@@ -40,7 +37,17 @@ namespace Punto_2
             Console.WriteLine("Digite el valor del embargo del empleado: ");
             embargo = Convert.ToDouble(Console.ReadLine());
 
-            
+            // 4 calculos
+
+            salario = horas * valorHora;
+
+            salud = salario * 0.4;
+            pension = salario * 0.4;
+
+            nominaTotal = salario - salud - pension - (embargo / 4);
+
+            // 5 mostrar resusltados en pantalla
+
         }
     }
 }
