@@ -23,8 +23,27 @@ public class PUNTO2
         Console.WriteLine("Ingresa las Horas Laboradas");
         Horas = PublicKey(Console.WriteLine());
 
+        Console.WriteLine("Ingresa las Horas Laboradas");
+        ValorHora = PublicKey(Console.WriteLine());
+
+        //Proceso
+        SalarioNeto = Horas * ValorHora;
+
+        Salud = SalarioNeto * 0,04;
+
+        Pension = SalarioNeto * 0,04;
+
+        Embargo = (SalarioNeto - Salud - Pension) / 4;
+
+        SalarioTotal = SalarioNeto - Salud - Pension - Embargo;
+
+
+
+
+
 
     }
+
 
 
 
