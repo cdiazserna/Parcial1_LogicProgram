@@ -20,7 +20,7 @@ namespace Punto1
 
             a = random.Next(2,10);
             b = random.Next(2,10);
-            c = random.Next(2,10);
+            c = random.Next(1,50);
 
             //proceso
 
