@@ -5,7 +5,13 @@ public class Punto2
     {
         double nombreEmpleado, cargo, horasTrabajadas, valorHora;
 
-        Console.Write("ingrese el el nombre del empleado");
+        Console.Write("ingrese el el nombre del empleado:");
+         nombreEmpleado = Console.ReadLine();
+
+        Console.Write("ingrese el cargo del empleado:");
+        
+       
+
     }
 
 }
