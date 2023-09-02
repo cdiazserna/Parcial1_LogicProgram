@@ -11,10 +11,10 @@ class taller2
     static void Main(string[] args)
 
     {//declaracion de variables
-        string nombreTrabajador, cargo, nombreEmpleado;
+        string cargo, nombreEmpleado;
         double horaTrabajo, valorHoras, salarioNeto, salarioFianal, embargo= 1/4, salud = 0.4, pension = 0.4;
 
-
+       
         Console.WriteLine("Ingrese nombre empleado");
         nombreEmpleado = Console.ReadLine();
 
@@ -29,6 +29,7 @@ class taller2
 
         Console.WriteLine("Ingrese valor");
         valorHoras = double.Parse(Console.ReadLine());
+
 
         Console.WriteLine("el salario neto " + nombreEmpleado + "el cargo" + cargo + "valor neto" + salarioNeto);
         Console.WriteLine()
