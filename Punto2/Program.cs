@@ -10,8 +10,8 @@ public class NominaMensualEmpleado
         decimal valorHorasTrabajadas, nominaSinDeducciones, nominaConDeducciones;
 
         //Declaración de constantes
-        const double porcentajeSalud = 4 / 100;
-        const double porcentajePension = 4 / 100;
+        const int porcentajeSalud = 4 / 100;
+        const int porcentajePension = 4 / 100;
         const decimal embargo = 1 / 4;
 
         //Pedir datos de entrada
@@ -28,6 +28,10 @@ public class NominaMensualEmpleado
         valorHorasTrabajadas = decimal.Parse(Console.ReadLine());
 
         //Cálculos 
+        nominaSinDeducciones = horasTrabajadas * valorHorasTrabajadas;
+        nominaConDeducciones = nominaSinDeducciones - ((nominaSinDeducciones * porcentajeSalud) + (nominaSinDeducciones * porcentajePension) + (nominaSinDeducciones * embargo));
+
+        //Datos de salida
 
 
     }
