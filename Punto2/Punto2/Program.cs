@@ -30,7 +30,7 @@ namespace Punto2
             cargo = (Console.ReadLine());
 
             Console.WriteLine("Ingrese el nombre del empleado: ");
-            horasTrabajadas = (Console.ReadLine());
+            horasTrabajadas = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Ingrese el valor de la hora: ");
             valorHora = double.Parse(Console.ReadLine());
