@@ -17,7 +17,7 @@ public class CalculoExpresion
         randomNumberB = random.Next(1, 8);
         randomNumberC = random.Next(1, 8);
 
-        //Cálculo
+        //Cálculo de expresión matemática
         X = (Math.Sqrt((Math.Pow(Math.Pow((3 * randomNumberA) + (4 * randomNumberB), 3), 2) * randomNumberC))) / (Math.Pow ((2 * randomNumberC) + randomNumberA, 2));
 
         //Imprimir X
