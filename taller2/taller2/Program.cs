@@ -14,9 +14,6 @@ class taller2
         string nombreTrabajador, cargo, nombreEmpleado;
         double horaTrabajo, valorHoras, salarioNeto, salarioFianal, embargo= 1/4, salud = 0.4, pension = 0.4;
 
-        Console.WriteLine("Igrese nombre del usuario");
-        nombreTrabajador = Console.ReadLine();
-
 
         Console.WriteLine("Ingrese nombre empleado");
         nombreEmpleado = Console.ReadLine();
