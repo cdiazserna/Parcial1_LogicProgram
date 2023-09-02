@@ -5,7 +5,9 @@ Se debe descontar de su salario el 4% correspondientes a salud, el 4% correspond
 Mostrar por pantalla el nombre del empleado, su cargo, salario neto (antes de deducciones) y salario
 final (después de deducciones) */
 
-class Punto2
+using System;
+
+class Program
 {
     static void Main()
     {
@@ -37,13 +39,11 @@ class Punto2
         Console.WriteLine("\nResumen de la nómina del empleado:");
         Console.WriteLine("Nombre del empleado: " + nombreEmpleado);
         Console.WriteLine("Cargo: " + cargoEmpleado);
-        Console.WriteLine("Salario Neto (antes de deducciones): $" + salarioNeto.ToString("0.00"));
+        Console.WriteLine("Salario Neto (antes de deducciones): $" + ((decimal)salarioNeto));
         Console.WriteLine("Deducciones:");
         Console.WriteLine("   - Salud: $" + salud.ToString("0.00"));
         Console.WriteLine("   - Pensión: $" + pension.ToString("0.00"));
         Console.WriteLine("   - Embargo bancario: $" + embargo.ToString("0.00"));
         Console.WriteLine("Salario Final (después de deducciones): $" + salarioFinal.ToString("0.00"));
-
-
     }
 }
