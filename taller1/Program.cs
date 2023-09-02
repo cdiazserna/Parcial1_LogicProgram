@@ -18,14 +18,16 @@ public class taller
 
         c = random.Next(2, 4);
 
-        x = (3 * a + 4 * b) / 3;
+        x = (3 * a + 4 * b);
         x = x * x * x;
-        x = ( )
+        x = (x * c);
+        x = (x * c);
+        x = (2 * c + a);
+        x = x * x;
 
 
-        Console.WriteLine(a + b + c);
-        Console.WriteLine(b + c);
-        Console.WriteLine(c + a);   
+
+      
 
 
       
