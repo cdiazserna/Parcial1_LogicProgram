@@ -30,10 +30,10 @@ public class Punto2
 
         //datos de salida
 
-        Console.WriteLine("El empleado: " + empleado + " con cargo de " + cargo);
+        Console.WriteLine("El empleado: " + empleado + " con cargo " + cargo);
         Console.WriteLine("Trabajo " + horasTrabajadas + " horas y cada una con un valor de " + valorHora + "$ c/u");
-        Console.WriteLine("El total neto a pagar es: " + pagoCompleto);
-        Console.WriteLine("El total mas deduciones y embargo es: " + pagoDeducciones);
+        Console.WriteLine("El total neto a pagar es: " + pagoCompleto + "$");
+        Console.WriteLine("El total mas deduciones y embargo es: " + pagoDeducciones + "$");
 
     }
 
