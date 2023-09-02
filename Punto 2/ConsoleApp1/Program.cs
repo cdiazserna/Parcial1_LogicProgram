@@ -4,7 +4,8 @@ public class MiPrimerPuntoTaller
     static void Main(string[] args)
     {   //declaración de mis variables
         double salarioneto, horastrabajo, valorhoras, salariobase;
-        double pension= 4
+        double pension= 4/100
+        double valor 
     
         //pedir valores de consola 
         Console.Write("Ingrese el nombre del empleado");
