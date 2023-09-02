@@ -17,6 +17,7 @@ class taller2
         Console.WriteLine("Igrese nombre del usuario");
         nombreTrabajador = Console.ReadLine();
 
+
         Console.WriteLine("Ingrese nombre empleado");
         nombreEmpleado = Console.ReadLine();
 
@@ -26,8 +27,14 @@ class taller2
         Console.WriteLine("Ingrese horas");
         horaTrabajo = double.Parse(Console.ReadLine());
 
+        Console.WriteLine("ingrese valor");
+        salarioNeto = double.Parse(Console.ReadLine());
+
         Console.WriteLine("Ingrese valor");
         valorHoras = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("el salario neto " + nombreEmpleado + "el cargo" + cargo + "valor neto" + salarioNeto);
+        Console.WriteLine()
 
         //final proce
 
