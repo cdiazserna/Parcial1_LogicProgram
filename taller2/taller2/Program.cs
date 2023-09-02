@@ -11,11 +11,14 @@ class taller2
     static void Main(string[] args)
 
     {//declaracion de variables
-        string nombreLacallo, cargo;
+        string nombreTrabajador, cargo, nombreEmpleado;
         double horaTrabajo, valorHoras, salarioNeto, salarioFianal, embargo= 1/4, salud = 0.4, pension = 0.4;
 
         Console.WriteLine("Igrese nombre del usuario");
-        nombreLacallo = Console.ReadLine();
+        nombreTrabajador = Console.ReadLine();
+
+        Console.WriteLine("Ingrese nombre empleado");
+        nombreEmpleado = Console.ReadLine();
 
         Console.WriteLine("Ingrese cargo");
         cargo = Console.ReadLine(); 
