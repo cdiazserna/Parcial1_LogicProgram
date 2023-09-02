@@ -6,8 +6,7 @@ public class Punto1
 
     static void Main(string[] args)
     {
-        Random random = new Random();
-        randomNumber = random.Next();
+        Random random = new();
 
         double a, b, c;
 
@@ -20,10 +19,11 @@ public class Punto1
         Console.Write("ingrese el valor de c:");
         c = Convert.ToDouble(Console.ReadLine());
 
-      
+        // Calcular el valor de x
+        double x = Math.Sqrt(Math.Pow(3 * a + 4 * b, 3) * Math.Pow(2 * c, 2 * (2 * c + a)));
 
-        //calcular el valor de x
-        
+
+
 
     }
 }
