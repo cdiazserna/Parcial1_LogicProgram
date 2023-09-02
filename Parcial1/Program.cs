@@ -9,12 +9,16 @@ namespace Parcial1
         {
             Random random = new Random();
 
-            double a, b, c, operacion1, operacion2, operacion3;
-            int randomNumber = random.Next(24, 33);
+            // Variables
 
-            a = randomNumber;
-            b = randomNumber;
-            c = randomNumber;
+            double randomNumber1 = random.Next(24,33);
+            double randomNumber2 = random.Next(24, 33);
+            double randomNumber3 = random.Next(24, 33);
+            double a, b, c, operacion1, operacion2, operacion3;
+            a = randomNumber1;
+            b = randomNumber2;
+            c = randomNumber3;
+
             operacion1 = Math.Pow(Math.Pow((3 * a + 4 * b), 3),2) * c ;
             operacion2 = Math.Pow((2 * c + a), 2);
             operacion3 = Math.Sqrt (operacion1 / operacion2);
