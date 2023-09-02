@@ -12,7 +12,7 @@ public class NominaMensualEmpleado
         //Declaración de constantes
         const int porcentajeSalud = 4 / 100;
         const int porcentajePension = 4 / 100;
-        const decimal embargo = 1 / 4;
+        const int embargo = 1 / 4;
 
         //Pedir datos de entrada
         Console.Write("Ingrese su nombre completo: ");
@@ -32,7 +32,10 @@ public class NominaMensualEmpleado
         nominaConDeducciones = nominaSinDeducciones - ((nominaSinDeducciones * porcentajeSalud) + (nominaSinDeducciones * porcentajePension) + (nominaSinDeducciones * embargo));
 
         //Datos de salida
-
+        Console.WriteLine("Su nombre es: " + nombreEmpleado);
+        Console.WriteLine("Su cargo es: " + cargoEmpleado);
+        Console.WriteLine("Su salario sin deducciones es: " + nominaSinDeducciones);
+        Console.WriteLine("Su salario con deducciones es: " + nominaConDeducciones);
 
     }
 
