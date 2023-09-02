@@ -12,6 +12,22 @@ namespace punto1
             //Defino primeramente las variables
             int a, b, c, x;
 
+            // Realizamos el proceso
+
+            //Asignamos el valor de las variables
+
+            Random random = new Random();
+
+            a = random.Next(2, 10);
+
+            b = random.Next(2,10);
+
+            c = random.Next(2, 10);
+
+            
+
+         
+
 
 
 
