@@ -41,7 +41,8 @@ public class PUNTO1
         X = Math.Sqrt(VALOR6 / VALOR4);
 
 
-
+        //Salida
+        Console.WriteLine("El Valor de X eS: " + X);
 
 
     }
