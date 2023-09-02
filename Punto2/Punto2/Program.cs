@@ -19,7 +19,8 @@ namespace Punto2
             //Declarar variables
 
             string nombreEmpleado, cargo;
-            double horasTrabajadas, valorHora;
+            double horasTrabajadas, valorHora, salarioNeto, salarioFinal;
+            double salud = 0.4, pension = 0.4, embargo = 0.25;
 
             //Asignar valor a las variables o pedir data
 
@@ -29,13 +30,19 @@ namespace Punto2
             Console.WriteLine("Ingrese el cargo del empleado: ");
             cargo = (Console.ReadLine());
 
-            Console.WriteLine("Ingrese el nombre del empleado: ");
+            Console.WriteLine("Ingrese las horas trabajadas: ");
             horasTrabajadas = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Ingrese el valor de la hora: ");
             valorHora = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Hello World!");
+            //Procesos
+
+            salarioNeto = horasTrabajadas * valorHora;
+
+            salarioFinal = salarioNeto - pension + embargo + salud;
+
+            Console.WriteLine("Ingrese las horas trabajadas: ");
         }
     }
 }
