@@ -19,20 +19,23 @@ namespace punto1
 
             Random random = new Random();
 
-            a = random.Next(2, 10);
+            a = (int)random.Next(10,18 );
 
-            b = random.Next(3, 11);
+            b = (int)random.Next(3, 11);
 
-            c = random.Next(1, 8);
+            c = (int)random.Next(1, 8);
 
             //Realizamos el calculo para encontrar la variable x
 
-            x = (double)Math.Sqrt((Math.Pow(2, Math.Pow(3, (3*a)+(4*b)))*c) / Math.Pow(2,(2*c)+a));
-        
+            x = (double) Math.Sqrt( Math.Pow(Math.Pow(3 * a + 4 * b, 3), 2)*c / Math.Pow ((2 * c) + a, 2));
 
-            
+            Console.WriteLine("Los números escogidos para hacer el programa son: " + a + " " + b + " y " + c);
+            Console.WriteLine("y el valor de nuestra variable x es: " + x);
 
-         
+
+
+
+
 
 
 
