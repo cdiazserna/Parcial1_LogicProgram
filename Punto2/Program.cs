@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Punto 2:
 
-namespace Punto2
+public class NominaMensualEmpleado
 {
-    internal class Program
+    static void Main(string[] args)
     {
-    }
-}
+        //Declaración de variables
+        string nombreEmpleado, cargoEmpleado;
+        int horasTrabajadas;
+        decimal valorHorasTrabajadas;
