@@ -15,6 +15,20 @@ public class NominaMensualEmpleado
         const decimal embargo = 1 / 4;
 
         //Pedir datos de entrada
+        Console.Write("Ingrese su nombre completo: ");
+        nombreEmpleado = Console.ReadLine();
+
+        Console.Write("Ingrese su cargo: ");
+        cargoEmpleado = Console.ReadLine();
+
+        Console.Write("Ingrese sus horas trabajadas: ");
+        horasTrabajadas = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese el valor por hora trabajada: ");
+        valorHorasTrabajadas = decimal.Parse(Console.ReadLine());
+
+        //Cálculos 
+
 
     }
 
