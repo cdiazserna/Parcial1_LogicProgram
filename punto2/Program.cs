@@ -9,6 +9,12 @@ namespace punto1
     {
         static void Main(string[] args)
         {
+            //declaracion de variables
+            double nomEmple, cargoEmple, horasTrab, valorHora;
+
+
+
+
 
 
         }
