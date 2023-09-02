@@ -25,14 +25,15 @@ public class Punto2
 
         //proceso
         pagoCompleto = horasTrabajadas * valorHora;//calculo del sueldo total
-        pagoDescuentoSaludPension = pagoCompleto * 8/100;
-        pagoDeducciones = pagoDescuentoSaludPension * 25 / 100;
+        pagoDescuentoSaludPension = pagoCompleto * 8/100 - pagoCompleto;
+        pagoDeducciones = pagoDescuentoSaludPension * 25 / 100 - pagoDescuentoSaludPension;
 
         //datos de salida
 
-        Console.WriteLine("El empleado: " + empleado + "con cargo: " + cargo);
-        Console.WriteLine("Trabajo " + horasTrabajadas + "horas y cada una con un valoe de " + valorHora);
-        Console.WriteLine();
+        Console.WriteLine("El empleado: " + empleado + " con cargo de " + cargo);
+        Console.WriteLine("Trabajo " + horasTrabajadas + " horas y cada una con un valor de " + valorHora + "$ c/u");
+        Console.WriteLine("El total neto a pagar es: " + pagoCompleto);
+        Console.WriteLine("El total mas deduciones y embargo es: " + pagoDeducciones);
 
     }
 
