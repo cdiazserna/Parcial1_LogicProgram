@@ -16,27 +16,20 @@
         //proceso
 
         solucionNumerador = (3 * a + 4 * b);
-        Console.WriteLine(solucionNumerador);
         solucionNumerador = Math.Pow(solucionNumerador, 3);
-        Console.WriteLine(solucionNumerador);
         solucionNumerador = Math.Pow(solucionNumerador, 2);
-        Console.WriteLine(solucionNumerador);
         solucionNumerador = solucionNumerador * c;
-        Console.WriteLine(solucionNumerador);
 
         solucionDenominador = (2 * c) + a;
-        Console.WriteLine(solucionDenominador);
         solucionDenominador = Math.Pow(solucionDenominador, 2);
-        Console.WriteLine(solucionDenominador);
 
 
         x = solucionNumerador / solucionDenominador;
-        Console.WriteLine(x);
         x = Math.Sqrt(x);
 
         //salida
 
-        Console.WriteLine(x);
+        Console.WriteLine("Al resolver la expresión matematica el resultado es: " + x);
     }
 
 
