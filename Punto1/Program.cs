@@ -1,6 +1,7 @@
 ﻿//Punto1: Calcular la expreseión matemática
 
 using System.Security.Cryptography;
+using System.Timers;
 
 public class CalculoExpresion
 {
@@ -19,9 +20,9 @@ public class CalculoExpresion
         //Cálculo
         X = (Math.Sqrt((Math.Pow(Math.Pow((3 * randomNumberA) + (4 * randomNumberB), 3), 2) * randomNumberC))) / (Math.Pow ((2 * randomNumberC) + randomNumberA, 2));
 
-        
+        //Imprimir X
+        Console.Write("La variable X = " + X);
+        Console.Write("\n");
 
-
-        
     }
 }
