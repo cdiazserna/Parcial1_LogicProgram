@@ -2,6 +2,10 @@
 //Debemos pedir por pantalla el nombre del empleado, el cargo, horas trabajadas y valor de la hora.
 //Console.WriteLine("Hello, World!");
 
+using System;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+
 public class PUNTO2
 {
     static void Main(string[] arg)
@@ -11,9 +15,13 @@ public class PUNTO2
         int Empleado, Cargo, Horas, ValorHora, Salud, Pension, Embargo, SalarioNeto, SalarioTotal;
 
         Console.WriteLine("Ingresa el Nombre del Empleado");
-        Empleado = Convert.ToInt32(Console.ReadLine());
+        Empleado = PublicKey (Console.WriteLine());
 
+        Console.WriteLine("Ingresa el Cargo"());
+        Cargo = PublicKey(Console.WriteLine());
 
+        Console.WriteLine("Ingresa las Horas Laboradas");
+        Horas = PublicKey(Console.WriteLine());
 
 
     }
