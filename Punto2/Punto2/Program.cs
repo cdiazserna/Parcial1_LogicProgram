@@ -40,9 +40,10 @@ namespace Punto2
 
             salarioNeto = horasTrabajadas * valorHora;
 
-            salarioFinal = salarioNeto - pension + embargo + salud;
+            salarioFinal = salarioNeto - pension - embargo - salud;
 
-            Console.WriteLine("Ingrese las horas trabajadas: ");
+            Console.WriteLine("El salario neto de " + nombreEmpleado + " con el cargo "+ cargo + " es " + salarioNeto);
+            Console.WriteLine("El salario final descontando salud, pensión y embargo es: " + salarioFinal);
         }
     }
 }
