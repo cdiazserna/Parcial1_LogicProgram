@@ -24,10 +24,16 @@ namespace Punto2
             //Asignar valor a las variables o pedir data
 
             Console.WriteLine("Ingrese el nombre del empleado: ");
-            nombreEmpleado = String.Format(Console.ReadLine());
+            nombreEmpleado = (Console.ReadLine());
 
+            Console.WriteLine("Ingrese el cargo del empleado: ");
+            cargo = (Console.ReadLine());
 
+            Console.WriteLine("Ingrese el nombre del empleado: ");
+            horasTrabajadas = (Console.ReadLine());
 
+            Console.WriteLine("Ingrese el valor de la hora: ");
+            valorHora = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Hello World!");
         }
