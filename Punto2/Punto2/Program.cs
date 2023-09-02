@@ -7,7 +7,7 @@
 
 
 
-   public class Punto2
+public class Punto2
 {
     static void Main(String[] args)
     {
@@ -32,19 +32,19 @@
         Console.WriteLine("Salario Final (después de deducciones): $" + salarioFinal);
     }
 
-    static double CalcularSalarioNeto(int horasTrabajadas, double valorHora)
-    {
-        double salarioBruto = horasTrabajadas * valorHora;
-        return salarioBruto;
-    }
+        static double CalcularSalarioNeto(int horasTrabajadas, double valorHora)
+        {
+            double salarioBruto = horasTrabajadas * valorHora;
+            return salarioBruto;
+        }
 
-    static double CalcularSalarioFinal(double salarioNeto)
-    {
-        double salud = salarioNeto * 0.04;
-        double pension = salarioNeto * 0.04;
-        double embargo = salarioNeto / 4;
+            static double CalcularSalarioFinal(double salarioNeto)
+            {
+                double salud = salarioNeto * 0.04;
+                double pension = salarioNeto * 0.04;
+                double embargo = salarioNeto / 4;
 
-        double salarioFinal = salarioNeto - salud - pension - embargo;
-        return salarioFinal;
-    }
+                double salarioFinal = salarioNeto - salud - pension - embargo;
+                return salarioFinal;
+            }
 }
