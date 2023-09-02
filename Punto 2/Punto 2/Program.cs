@@ -28,7 +28,7 @@
 
         salarioEmpleado = (horasTrabajadas * ValorHora) * 31;
 
-        Console.WriteLine($"Sr {nombreCompleto} su salario mensual es de: {salarioEmpleado}");
+        Console.WriteLine($"Su salario mensual es de: {salarioEmpleado}");
 
         Console.WriteLine("** Descuentos de nomina **");
 
@@ -38,10 +38,10 @@
 
         Console.WriteLine($"Descuento salud: {descSalud}");
         Console.WriteLine($"Descuento pension: {descPension}");
-        Console.WriteLine($"Descuento {embargoBancario}");
+        Console.WriteLine($"Descuento del embargo: {embargoBancario}");
 
         nominaEmpleado = salarioEmpleado - descSalud - descPension - embargoBancario;
 
-        Console.WriteLine($"El salario a pagar es de {nominaEmpleado}");
+        Console.WriteLine($"Sr {nombreCompleto} el salario que resivira para este mes es de: {nominaEmpleado}");
     }
 }
