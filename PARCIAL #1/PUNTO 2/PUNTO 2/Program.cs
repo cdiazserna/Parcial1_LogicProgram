@@ -16,8 +16,7 @@ class Program
         Console.WriteLine("Por favor, ingrese la cantidad de horas trabajadas");
         double vhora = double.Parse(Console.ReadLine());
 
-        
+        Console.WriteLine("Los números comprendidos entre " + numero1 + " y " + numero2 + " son:");
 
-       
 }
 
