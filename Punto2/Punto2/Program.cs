@@ -41,6 +41,14 @@ namespace Punto2
             nominaBruta = horasTrabajadas * valorHora;
             nominaNeta = nominaBruta - ((nominaBruta * 0.08) + (nominaBruta * 0.25));
 
+            //Imprimimos los resultados obtenidos
+
+            Console.WriteLine(nombreEmpleado + " en el cargo de " + cargoEmpleado);
+            Console.WriteLine("Su salario antes de deducciones es de: $" + nominaBruta);
+            Console.WriteLine("Su salario después de deducciones como salud y pension que es 4% cada una, mas deduccion por deuda de 25% es de $" + nominaNeta);
+
+
+
 
 
 
