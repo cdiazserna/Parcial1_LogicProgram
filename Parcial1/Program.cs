@@ -11,9 +11,9 @@ namespace Parcial1
 
             // Variables
 
-            double randomNumber1 = random.Next(24,33);
-            double randomNumber2 = random.Next(24, 33);
-            double randomNumber3 = random.Next(24, 33);
+            double randomNumber1 = random.Next(24,50);
+            double randomNumber2 = random.Next(24,50);
+            double randomNumber3 = random.Next(24,50);
             double a, b, c, operacion1, operacion2, operacion3;
             a = randomNumber1;
             b = randomNumber2;
