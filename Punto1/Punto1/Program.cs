@@ -7,6 +7,8 @@ public class Punto1
     static void Main(string[] args)
     {
         Random random = new();
+        double min = 1;
+        double max = 8;
 
         double a, b, c;
 
