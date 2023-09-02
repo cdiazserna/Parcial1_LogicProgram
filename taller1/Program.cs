@@ -8,7 +8,7 @@ public class taller
 
     {
         //Los valores de "𝒂", "𝒃"y "𝒄"se adquieren aleatoriamentecon el siguiente fragmento de código
-        double a, b, c;
+        double a, b, c,x;
 
             Random random = new Random();
             
@@ -16,11 +16,17 @@ public class taller
 
         b = random.Next(8, 16);  
 
-        c = random.Next(2, 4);  
+        c = random.Next(2, 4);
+
+        x = (3 * a + 4 * b) / 3;
+        x = x * x * x;
+        x = ( )
+
 
         Console.WriteLine(a + b + c);
         Console.WriteLine(b + c);
         Console.WriteLine(c + a);   
+
 
       
 
