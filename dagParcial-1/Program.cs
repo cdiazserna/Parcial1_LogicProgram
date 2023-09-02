@@ -12,11 +12,13 @@ namespace Punto1
 
             Random random = new Random();
 
-            a = random.Next(2, 10);
+            a = random.Next(3, 12);
 
             b = random.Next(2, 10);
 
-            c = random.Next(2, 10);
+            c = random.Next(4, 13);
+
+            x = (double)Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2) - Math.Pow(c, 2));
 
             
 
