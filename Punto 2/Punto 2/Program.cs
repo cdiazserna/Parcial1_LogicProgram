@@ -3,8 +3,12 @@
 
     static void Main()
     {
-        double horasTrabajadas, ValorHora,nominaEmpleado;
+        double horasTrabajadas, ValorHora,nominaEmpleado,descSalud,descPension,embargoBancario;
         string nombreCompleto, cargoEmpleado;
+        const double SALUD_EMPLEADO = 0.04;
+        const double PENSION_EMPLEADO = 0.04;
+        const double EMBARGO_BANCARIO_EMPLEADO = 4;
+
 
         Console.WriteLine("*** Calculo de nomina ***");
 
@@ -24,10 +28,16 @@
 
         nominaEmpleado = (horasTrabajadas * ValorHora) * 31;
 
-        Console.WriteLine($"Sr {nombreCompleto} su salario mensual es de: {nominaEmpleado}" +
-            $"\nNo se tiene encuenta devengando");
-        Console.WriteLine();
+        Console.WriteLine($"Sr {nombreCompleto} su salario mensual es de: {nominaEmpleado}");
 
+        Console.WriteLine("** Descuentos de nomina **");
 
+        descSalud = nominaEmpleado * SALUD_EMPLEADO;
+        descPension = nominaEmpleado * PENSION_EMPLEADO;
+        embargoBancario = nominaEmpleado / EMBARGO_BANCARIO_EMPLEADO;
+
+        Console.WriteLine($"Descuento salud: {descSalud}");
+        Console.WriteLine($"Descuento pension: {descPension}");
+        Console.WriteLine($"Descuento {embargoBancario}");
     }
 }
