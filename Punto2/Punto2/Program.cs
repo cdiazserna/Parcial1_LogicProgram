@@ -13,8 +13,8 @@ namespace Punto2
             //Declaramos los tipos de variables
 
             String nombreEmpleado, cargoEmpleado;
-            double horasTrabajadas; 
-            decimal valorHora;
+            double horasTrabajadas,valorHora, nominaBruta, nominaNeta; 
+
 
             //realizamos el proceso para calcular el salario
 
@@ -34,7 +34,15 @@ namespace Punto2
             Console.WriteLine("\n");
 
             Console.WriteLine("Indique por favor el valor de su hora de trabajo ");
-            valorHora = Convert.ToDecimal(Console.ReadLine());
+            valorHora = Convert.ToDouble(Console.ReadLine());
+
+            //Calculamos la nómina
+
+            nominaBruta = horasTrabajadas * valorHora;
+            nominaNeta = nominaBruta - ((nominaBruta * 0.08) + (nominaBruta * 0.25));
+
+
+
 
 
 
