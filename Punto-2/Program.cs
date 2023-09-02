@@ -41,8 +41,8 @@ namespace Punto_2
 
             salario = horas * valorHora;
 
-            salud = salario * 0.4;
-            pension = salario * 0.4;
+            salud = salario * 0.04;
+            pension = salario * 0.04;
 
             nominaTotal = salario - salud - pension - (embargo / 4);
 
