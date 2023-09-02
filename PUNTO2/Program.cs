@@ -38,6 +38,12 @@ public class PUNTO2
         SalarioTotal = SalarioNeto - Salud - Pension - Embargo;
 
 
+        //Salida
+        Console.WriteLine("El Nombre del Empleado Es: " + Empleado);
+        Console.WriteLine("El Cargo del Empleado es: " + Cargo);
+        Console.WriteLine("El Salario Neto es:" + SalarioNeto);
+        Console.WriteLine("El Salario Total es:" + SalarioTotal);
+
 
 
 
