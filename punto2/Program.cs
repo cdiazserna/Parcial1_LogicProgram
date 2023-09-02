@@ -10,7 +10,9 @@ namespace punto1
         static void Main(string[] args)
         {
             //declaracion de variables
-            double nomEmple, cargoEmple, horasTrab, valorHora;
+            double nomEmple, cargoEmple;
+            
+            decimal salud, pension, embargo, salarioBase, salarioFinal, horasTrab, valorHora;
 
             //solicitar datos de entrada por pantalla
 
@@ -21,10 +23,31 @@ namespace punto1
             cargoEmple = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Por favor ingresar las horas trabajadas del empleado: ");
-            horasTrab = Convert.ToDouble(Console.ReadLine());
+            horasTrab = Convert.ToDecimal(Console.ReadLine());
 
             Console.Write("Por favor ingresar las horas trabajadas del empleado: ");
-            valorHora  = Convert.ToDouble(Console.ReadLine());
+            valorHora  = Convert.ToDecimal(Console.ReadLine());
+
+
+            //calcular problema
+
+            //calcular salario base
+
+            salarioBase = horasTrab * valorHora;
+
+            //salud
+            salud = (salarioBase * 4) / 100;
+
+            //pension
+            pension = (salarioBase * 4) / 100;
+
+            embargo = (salarioBase / 4);
+
+            //salario final
+
+
+
+
 
 
 
