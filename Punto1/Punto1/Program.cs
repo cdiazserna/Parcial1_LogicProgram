@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public class Punto1
+{
+    static void Main(string[] args)
+    {
+        //instancia clase ramdon
+
+
+        //declaración variables
+        double a, b, c, x;
+
+        //datos de entrada
+
+        //proceso
+
+        //salida
+    }
+
+
+}
