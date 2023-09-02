@@ -31,6 +31,7 @@
 
 
         x = solucionNumerador / solucionDenominador;
+        Console.WriteLine(x);
         x = Math.Sqrt(x);
 
         //salida
