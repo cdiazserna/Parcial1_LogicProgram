@@ -21,8 +21,15 @@ namespace Punto1
             b = random.Next(2,10);
             c = random.Next(2,10);
 
-            //
+            //proceso
 
+            x = (3 * a + 4 * b);
+
+            x = x * x * x;
+
+            x = (x * x) * c;
+
+            x = X
 
 
 
