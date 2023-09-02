@@ -1,6 +1,7 @@
 ﻿using System;
 
-//Realice un programa en C# donde se tenga la posibilidad de evaluar la siguiente expresión matemática y me permita encontrar el valor e
+//Realice un programa en C# donde se tenga la posibilidad de evaluar la siguiente expresión matemática
+//y me permita encontrar el valor el
 //decimal la variable x
 
 namespace Punto1
