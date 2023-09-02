@@ -27,7 +27,7 @@ class Program
         double salarioNeto = horasTrabajadas * valorHora;
 
         // Calcular deducciones
-        double salud = salarioNeto * 0.04;
+        double salud = salarioNeto * 0.04; 
         double pension = salarioNeto * 0.04;
         double embargo = salarioNeto / 4;
 
