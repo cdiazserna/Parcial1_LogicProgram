@@ -19,8 +19,9 @@ namespace Punto2
             //Declarar variables
 
             string nombreEmpleado, cargo;
-            double horasTrabajadas, valorHora, salarioNeto, salarioFinal;
+            double horasTrabajadas, valorHora;
             double salud = 0.4, pension = 0.4, embargo = 1/4;
+            double salarioFinal, salarioNeto;
 
             //Asignar valor a las variables o pedir data
 
@@ -40,8 +41,8 @@ namespace Punto2
 
             salarioNeto = horasTrabajadas * valorHora;
 
-            salarioFinal = salarioNeto - pension  - salud;
-            salarioFinal = salarioFinal - embargo;
+            salarioFinal =  salarioNeto - 0.8;
+            salarioFinal = decimal.Parse(salarioFinal - embargo);
 
             Console.WriteLine("El salario neto de " + nombreEmpleado + " con el cargo "+ cargo + " es " + salarioNeto);
             Console.WriteLine("El salario final descontando salud, pensión y embargo es: " + salarioFinal);
