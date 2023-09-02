@@ -30,6 +30,7 @@
         //salida
 
         Console.WriteLine("Al resolver la expresión matematica el resultado es: " + x);
+
     }
 
 
