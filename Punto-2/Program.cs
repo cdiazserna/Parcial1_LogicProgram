@@ -22,7 +22,7 @@ namespace Punto_2
 
             //  3 pedir datos por pantalla
 
-            Console.WriteLine("Digite el nombre del empleado: ");
+            Console.WriteLine("Digite el nombre y apellido del empleado: ");
             nombre = Console.ReadLine();
             
             Console.WriteLine("Digite el cargo del empleado: ");
