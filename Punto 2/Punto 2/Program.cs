@@ -3,7 +3,7 @@
 
     static void Main()
     {
-        double horasTrabajadas, ValorHora,nominaEmpleado,descSalud,descPension,embargoBancario;
+        double horasTrabajadas, ValorHora,salarioEmpleado,descSalud,descPension,embargoBancario,nominaEmpleado;
         string nombreCompleto, cargoEmpleado;
         const double SALUD_EMPLEADO = 0.04;
         const double PENSION_EMPLEADO = 0.04;
@@ -26,20 +26,22 @@
         Console.WriteLine("*Se va tomar como base que el mes sea de 31 días*");
         Console.WriteLine($"El nombre del empleado es: {nombreCompleto}\nCargo del empleado {cargoEmpleado}.");
 
-        nominaEmpleado = (horasTrabajadas * ValorHora) * 31;
+        salarioEmpleado = (horasTrabajadas * ValorHora) * 31;
 
-        Console.WriteLine($"Sr {nombreCompleto} su salario mensual es de: {nominaEmpleado}");
+        Console.WriteLine($"Sr {nombreCompleto} su salario mensual es de: {salarioEmpleado}");
 
         Console.WriteLine("** Descuentos de nomina **");
 
-        descSalud = nominaEmpleado * SALUD_EMPLEADO;
-        descPension = nominaEmpleado * PENSION_EMPLEADO;
-        embargoBancario = nominaEmpleado / EMBARGO_BANCARIO_EMPLEADO;
+        descSalud = salarioEmpleado * SALUD_EMPLEADO;
+        descPension = salarioEmpleado * PENSION_EMPLEADO;
+        embargoBancario = salarioEmpleado / EMBARGO_BANCARIO_EMPLEADO;
 
         Console.WriteLine($"Descuento salud: {descSalud}");
         Console.WriteLine($"Descuento pension: {descPension}");
         Console.WriteLine($"Descuento {embargoBancario}");
 
+        nominaEmpleado = salarioEmpleado - descSalud - descPension - embargoBancario;
 
+        Console.WriteLine($"El salario a pagar es de {nominaEmpleado}");
     }
 }
