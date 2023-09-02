@@ -10,7 +10,8 @@ namespace punto1
             //el valor de la variable
 
             //Defino primeramente las variables
-            int a, b, c, x;
+            int a, b, c;
+            double x;
 
             // Realizamos el proceso
 
@@ -20,9 +21,14 @@ namespace punto1
 
             a = random.Next(2, 10);
 
-            b = random.Next(2,10);
+            b = random.Next(3, 11);
 
-            c = random.Next(2, 10);
+            c = random.Next(1, 8);
+
+            //Realizamos el calculo para encontrar la variable x
+
+            x = (double)Math.Sqrt((Math.Pow(2, Math.Pow(3, (3*a)+(4*b)))*c) / Math.Pow(2,(2*c)+a));
+        
 
             
 
