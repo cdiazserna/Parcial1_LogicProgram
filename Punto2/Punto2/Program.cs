@@ -40,8 +40,8 @@ namespace Punto2
 
             salarioNeto = horasTrabajadas * valorHora;
 
-            salarioFinal =  salarioNeto + salarioNeto - (0.8+salarioNeto);
-            salarioFinal = salarioFinal + salarioNeto - (0.25+salarioNeto);
+            salarioFinal =   salarioNeto - (8/salarioNeto);
+            salarioFinal = salarioFinal  - (25/salarioNeto);
 
             
 
