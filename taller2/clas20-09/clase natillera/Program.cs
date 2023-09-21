@@ -5,8 +5,8 @@ static void Main(string[] args)
   Random tasaMes=new Random();  
 
 //declaracion de variables
-decimal rendimientoMes, interesMes, bonoMes, ahorroMensual, rendimientosAnual, ahorroMes,
-        interesAnual, bonoAnual, ahorroAnuel, sumaTotalNeto;
+decimal rendimientoMes, interesMes, bonoMes, ahorroMensual =0, rendimientosAnual =0, ahorroMes = 0,
+        interesAnual, bonoAnual =0, ahorroAnuel =0, sumaTotalNeto;
 
 int mes;
 
