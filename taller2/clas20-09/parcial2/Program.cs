@@ -24,16 +24,16 @@ namespace parcial2
         while (adivinado)
         {
            Console.Write("Introduce tu suposición: ");
-                string entrada = Console.ReadLine();
+                string entrada = Console.ReadLine(participante);
 
             if (participante == 2)
-                numeroAleatorio = intentos.Next(0, 50);
+                numeroAleatorio = intentos Random.Next(0, 50);
 
             if (participante == 3)
-                numeroAleatorio = intentos.Next(0, 100);
+                numeroAleatorio = intentos Random .Next(0, 100);
 
             if (participante == 4)
-                numeroAleatorio = intentos.Next(0, 200);
+                numeroAleatorio = intentos Random.Next(0, 200);
 
 
             if (int.TryParse(entrada, out int suposicion))
