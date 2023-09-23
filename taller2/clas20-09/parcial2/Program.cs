@@ -11,10 +11,11 @@ namespace parcial2
         int rangoMaximo = 100;
         int numeroAleatorio = Random.Next(rangoMinimo, rangoMaximo + 1);
         int intentos = 0;
+        int participante =0;
         bool adivinado = false;
 
         Console.WriteLine("¡Bienvenido al juego 'Adivina el número'!");
-        Console.WriteLine("participante #1 ingrese su numero");
+ 
         Console.WriteLine("participante #2 ingrese su numero");
         Console.WriteLine("participante #3 ingrese su numero");
         Console.WriteLine("participante #4 ingrese su numero");
@@ -24,6 +25,17 @@ namespace parcial2
         {
            Console.Write("Introduce tu suposición: ");
                 string entrada = Console.ReadLine();
+
+            if (participante == 2)
+                numeroAleatorio = intentos.Next(0, 50);
+
+            if (participante == 3)
+                numeroAleatorio = intentos.Next(0, 100);
+
+            if (participante == 4)
+                numeroAleatorio = intentos.Next(0, 200);
+
+
             if (int.TryParse(entrada, out int suposicion))
             {
                 intentos++;
