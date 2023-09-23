@@ -16,6 +16,10 @@ namespace parcial2
         Console.WriteLine("¡Bienvenido al juego 'Adivina el número'!");
 
         Console.WriteLine($"Estoy pensando en un número entre {rangoMinimo} y {rangoMaximo}. ¿Puedes adivinar cuál es?");
+        Console.WriteLine("participante #1 ingrese su numero");
+        Console.WriteLine("participante #2 ingrese su numero");
+        Console.WriteLine("participante #3 ingrese su numero");
+        Console.WriteLine("participante #4 ingrese su numero");
 
         while (adivinado)
         {
@@ -29,8 +33,7 @@ namespace parcial2
                 {
                  Console.WriteLine($"¡Felicitaciones! Adivinaste el número en {intentos} intentos.");
                    true adivinado = adivinado;
-                 
-                         }
+                        }
                 else if (suposicion < numeroAleatorio)
                 {
                  Console.WriteLine("El número que estoy pensando es mayor. ¡Sigue intentando!");
@@ -38,8 +41,7 @@ namespace parcial2
                    }
                 else
                   {
-                 Console.WriteLine("El número que estoy pensando es menor. ¡Sigue intentando!");
-                                                
+                    Console.WriteLine("El número que estoy pensando es menor. ¡Sigue intentando!");                          
                 else
                 {
                  Console.WriteLine("Por favor, ingresa un número válido.");
