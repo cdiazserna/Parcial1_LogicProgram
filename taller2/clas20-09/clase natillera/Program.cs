@@ -38,7 +38,7 @@ for (mes = 1; mes <=12; mes++)
         Console.WriteLine($"suma total neta hasta el {mes}: {sumaTotalNeto}:");
     }
 
-        Console.WriteLine(string.Format("resumen total natillera navideña del año{0}", fechaAtual.Year));
+        Console.WriteLine(string.Format("resumen total natillera navideña del año{0}", fechaActual.Year));
 
 
 
