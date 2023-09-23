@@ -14,12 +14,11 @@ namespace parcial2
         bool adivinado = false;
 
         Console.WriteLine("¡Bienvenido al juego 'Adivina el número'!");
-
-        Console.WriteLine($"Estoy pensando en un número entre {rangoMinimo} y {rangoMaximo}. ¿Puedes adivinar cuál es?");
         Console.WriteLine("participante #1 ingrese su numero");
         Console.WriteLine("participante #2 ingrese su numero");
         Console.WriteLine("participante #3 ingrese su numero");
         Console.WriteLine("participante #4 ingrese su numero");
+        Console.WriteLine($"Estoy pensando en un número entre {rangoMinimo} y {rangoMaximo}. ¿Puedes adivinar cuál es?");
 
         while (adivinado)
         {
