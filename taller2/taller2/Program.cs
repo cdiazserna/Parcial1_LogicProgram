@@ -32,7 +32,7 @@ class taller2
 
 
         Console.WriteLine("el salario neto " + nombreEmpleado + "el cargo" + cargo + "valor neto" + salarioNeto);
-        Console.WriteLine()
+        Console.WriteLine();
 
         //final proce
 
